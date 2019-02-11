@@ -119,7 +119,6 @@
        box = ['a','b','c','d']
        dinner = random.choice(box)
        return render(request, 'dinner.html',{'dinner':dinner})
-   
    ```
 
    - Template을 리턴하려면, `render` 를 사용하여야 한다.
@@ -132,7 +131,6 @@
    ```bash
    $ mkdir home/templates
    $ touch home/templates/dinner.html
-   
    ```
 
    ```html
@@ -140,7 +138,35 @@
    <h1>
        {{dinner}}
    </h1>
-   
    ```
+
+
+
+## 4. Variable Routing
+
+1. url 설정
+
+   ```python
+   path('home/you/<name>',views.you)
+   path('home/cube/<int:num>', views.cube)
+   ```
+
+2. view 파일 설정
+
+   ```python
+   def you(request, name):
+       return render(request, 'you.html',{'name':name})
+   
+   def cube(request, num):
+       return render(request,'cube.html',{'num':num,'res':num**3})
+   ```
+
+3. 템플릿 파일 설정
+
+   ```django
+   <h1> {{name}}, 안녕!!</h1>
+   ```
+
+   
 
    

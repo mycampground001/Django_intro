@@ -14,6 +14,10 @@ def dinner(request):
     # render 선택인자
     # 3) dictionary : 템플릿에서 쓸 변수 값을 정의
     
-    return render(request, 'dinner.html', {'dinner':dinner})
+    return render(request, 'dinner.html', {'dinner':dinner,'box':box})
+    # zai flask return ('dinner.html',~~)
     # template은 기본적으로 문법이 jinja2랑 같은데, 장고에서는 DTL을 쓴다.
     # Django template Language
+    
+def cube(request, num):
+    return render(request,'cube.html',{'num':num,'res':num**3})
