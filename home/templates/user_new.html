@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+    <form action="/home/user_read/" method="POST">
+        {% csrf_token %} <!--POST 사용시 옆의 토큰을 써야됩니다.-->
+        이름 <input type="text" name="username">
+        암호 <input type="password" name="password">
+        <input type="submit">
+    </form>
+
+{% endblock %}
