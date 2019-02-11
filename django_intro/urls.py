@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# home 폴더 내에 있는 views.py를 불러온다.
+from home import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 요청이 home/으로 오면, views의 index 함수를 실행시킨다.
+    path('home/',views.index)
 ]
