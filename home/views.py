@@ -21,3 +21,10 @@ def dinner(request):
     
 def cube(request, num):
     return render(request,'cube.html',{'num':num,'res':num**3})
+    
+def ping(request):
+    return render(request,'ping.html')
+    
+def pong(request):
+    msg = request.GET.get('message')
+    return render(request, 'pong.html',{'msg':msg})

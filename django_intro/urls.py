@@ -25,4 +25,6 @@ urlpatterns = [
     path('home/',views.index),
     path('home/dinner/',views.dinner),
     path('home/cube/<int:num>',views.cube),
+    path('home/ping/',views.ping),
+    path('home/pong',views.pong),
 ]
