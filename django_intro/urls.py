@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 # home 폴더 내에 있는 views.py를 불러온다.
 from home import views
-from dinner import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
