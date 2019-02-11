@@ -166,7 +166,7 @@
    ```django
    <h1> {{name}}, 안녕!!</h1>
    ```
-
+ ![image_from_ios](/django_intro/home/image/image_from_ios.jpg)
    
 
    
