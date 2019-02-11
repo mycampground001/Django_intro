@@ -1,0 +1,29 @@
+[33mcommit 9d56a9f4ba0a8f41ab614cb7dc4e257c0a54038c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: jeongSangyoung <mycampground@daum.net>
+Date:   Mon Feb 11 02:50:43 2019 +0000
+
+    README
+
+[33mcommit 71ca5a1fb19e404133f0a4cf14714cc3d51943ca[m
+Author: jeongSangyoung <mycampground@daum.net>
+Date:   Mon Feb 11 02:44:45 2019 +0000
+
+    3 수정
+
+[33mcommit 91bc9bfe1dba5e63fd412b7f8de9b9887bf64a62[m
+Author: jeongSangyoung <mycampground@daum.net>
+Date:   Mon Feb 11 02:32:31 2019 +0000
+
+    03_template render
+
+[33mcommit 7fe42989072149d66010b38a89ed16be94dd75dc[m
+Author: jeongSangyoung <mycampground@daum.net>
+Date:   Mon Feb 11 01:52:09 2019 +0000
+
+    02_python manage.py startapp home_hello, django!
+
+[33mcommit bb91d5eb310411f2173ac3b801c77617d4271f68[m
+Author: jeongSangyoung <mycampground@daum.net>
+Date:   Mon Feb 11 01:19:51 2019 +0000
+
+    01_django-admin startproject django_intro
