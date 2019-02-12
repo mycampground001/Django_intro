@@ -48,4 +48,5 @@ def template_example(request):
     return render(request,'template_example.html',{'my_dict':my_dict,'my_list':my_list,
     'my_sentence':my_sentence,'messages':messages,'empty_list':empty_list,'datetimenow':datetimenow})
     
-    
+def static_example(request):
+    return render(request, 'static_example.html')
