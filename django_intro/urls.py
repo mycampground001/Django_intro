@@ -20,5 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # 요청이 home/으로 오면, views의 index 함수를 실행시킨다.
-    path('home/',include('home.urls'))
+    path('home/',include('home.urls')),
+    path('utilities/',include('utilities.urls')),
 ]
